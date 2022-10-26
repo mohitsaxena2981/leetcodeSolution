@@ -3,7 +3,6 @@ class Solution {
         List<String> list=new ArrayList<>();
         paranthesis(n,0,0,"",list);
         return list;
-        
     }
     public static void paranthesis(int n,int opening,int closing,String ans,List<String> list)
     {
