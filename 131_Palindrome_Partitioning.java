@@ -3,8 +3,7 @@ class Solution {
         List<String> list=new ArrayList<>();
 	    List<List<String>> ans=new ArrayList<>();
 	    printpartition(s,list,ans);
-        return ans;
-        
+        return ans;  
     }
     public static void printpartition(String str,List<String> list,List<List<String>> ans)
 	{
