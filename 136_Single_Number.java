@@ -20,6 +20,5 @@ class Solution {
             ans=nums[nums.length-1];
         }
         return ans;
-
     }
 }
