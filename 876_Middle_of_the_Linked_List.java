@@ -1,5 +1,6 @@
 class Solution {
-    public ListNode middleNode(ListNode head) {
+    public ListNode middleNode(ListNode head)
+    {
         ListNode slow = head;
         ListNode fast = head.next;
         while (fast != null) {
