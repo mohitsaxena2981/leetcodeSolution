@@ -20,7 +20,6 @@ class Solution {
                 cl=0;
             }
         }
-        return c;
-        
+        return c;      
     }
 }
