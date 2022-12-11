@@ -3,7 +3,6 @@ import java.util.*;
     public int validSubarrays(int[] nums) {
       return ValidSubArray(nums);
     }
-	
 	public static int ValidSubArray(int arr[])
 	{
 	    Stack<Integer> st=new Stack<>();
