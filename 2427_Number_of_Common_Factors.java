@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
     public int commonFactors(int a, int b) {
         int c=0;
         if(a>b)
