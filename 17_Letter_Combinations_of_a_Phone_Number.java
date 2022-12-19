@@ -9,7 +9,6 @@ class Solution {
         printcombination(digits,"",list);
         return list;
     }
-
     public static void printcombination(String str,String ans,List<String> list)
     {
         if(str.length()==0)
