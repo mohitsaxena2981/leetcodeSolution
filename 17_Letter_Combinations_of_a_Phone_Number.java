@@ -11,8 +11,7 @@ class Solution {
     }
     public static void printcombination(String str,String ans,List<String> list)
     {
-        if(str.length()==0)
-        {
+        if(str.length()==0){
             list.add(ans);
             return;
         }
