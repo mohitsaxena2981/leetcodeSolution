@@ -5,9 +5,7 @@ class Solution {
 			Arrays.fill(a, -1);
 		}
 		return lcs(text1, text2, 0, 0, dp);
-
 	}
-
 	public static int lcs(String s1, String s2, int i, int j, int[][] dp) {
 		if (i == s1.length() || j == s2.length()) {
 			return 0;
