@@ -24,7 +24,9 @@ class Solution
                 stack.push(a/b);
             }
             else
+            {
                 stack.push(Integer.parseInt(tokens[i]));
+            }
         }
         return stack.pop();
     }
