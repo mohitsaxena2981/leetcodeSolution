@@ -27,8 +27,7 @@ class Solution {
             }
            i++;
         }
-        return nums;
-        
+        return nums;      
     }
 }
 
