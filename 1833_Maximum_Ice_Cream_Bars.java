@@ -1,5 +1,6 @@
 class Solution {
-    public int maxIceCream(int[] costs, int coins) {
+    public int maxIceCream(int[] costs, int coins) 
+    {
         Arrays.sort(costs);
         int c=0;
         int sum=0;
