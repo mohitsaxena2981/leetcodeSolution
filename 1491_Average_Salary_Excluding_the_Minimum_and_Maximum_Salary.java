@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
     public double average(int[] salary) {
         int max=0;
         int min=0;
